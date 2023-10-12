@@ -1,5 +1,5 @@
 FROM ubuntu
-RUN apt-get update
-RUN apt-get install -y python
+RUN sudo yum update
+RUN sudo yum install -y python
 ADD ankit-app.py .
 CMD ["python", "ankit-app.py"]
