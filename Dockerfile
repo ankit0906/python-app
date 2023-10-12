@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:latest
 WORKDIR /app
 RUN sudo yum update
 RUN sudo yum install python -y
